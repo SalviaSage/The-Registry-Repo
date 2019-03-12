@@ -7,4 +7,5 @@
 It is recommended to set the taskbar to be 4 levels high, for extra taskbar
 space to complement the desktop icons, these all fit very well.
 
-I recommend this registry change for people who are annoyed by the file name truncation for desktop icons.
+I recommend this registry change for people who use a desktop resolution that is horizontally 1920 pixels
+are annoyed by the file name truncation for desktop icons.
