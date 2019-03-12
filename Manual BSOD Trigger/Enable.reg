@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+;; This allows triggering a blue screen of death manually by holding down right control and pressing the scroll lock key twice.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\kbdhid\Parameters]
+"CrashOnCtrlScroll" = dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\i8042prt\Parameters]
+"CrashOnCtrlScroll" = dword:00000001
+
