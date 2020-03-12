@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+;; Hides the .URL file extension. (default setting)
+
+[HKEY_CLASSES_ROOT\IE.AssocFile.URL]
+"NeverShowExt" = ""
+
