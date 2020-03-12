@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+;; Shows the .xnk file extension. (modified setting)
+
+[HKEY_CLASSES_ROOT\xnkfile]
+"NeverShowExt" = -
+
