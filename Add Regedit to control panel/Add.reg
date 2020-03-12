@@ -1,0 +1,24 @@
+Windows Registry Editor Version 5.00
+
+;; This adds the Windows Registry Editor to the Control Panel.
+
+[HKEY_CLASSES_ROOT\CLSID\{77708248-f839-436b-8919-527c410f48b9}]
+@ = "Registry Editor"
+"InfoTip" = "Starts the Registry Editor"
+"System.ControlPanel.Category" = "5"
+
+[HKEY_CLASSES_ROOT\CLSID\{77708248-f839-436b-8919-527c410f48b9}\DefaultIcon]
+@ = "%SYSTEMROOT%\\regedit.exe"
+
+[HKEY_CLASSES_ROOT\CLSID\{77708248-f839-436b-8919-527c410f48b9}\Shell]
+
+[HKEY_CLASSES_ROOT\CLSID\{77708248-f839-436b-8919-527c410f48b9}\Shell\Open]
+
+[HKEY_CLASSES_ROOT\CLSID\{77708248-f839-436b-8919-527c410f48b9}\Shell\Open\Command]
+@ = hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,\
+  25,00,5c,00,72,00,65,00,67,00,65,00,64,00,69,00,74,00,2e,00,65,00,78,00,65,\
+  00.00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ControlPanel\NameSpace\{77708248-f839-436b-8919-527c410f48b9}]
+@ = "Add Registry Editor to Control Panel"
+
