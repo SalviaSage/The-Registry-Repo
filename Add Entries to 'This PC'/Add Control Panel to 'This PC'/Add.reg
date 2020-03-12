@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+;; This allows you to easily open the control panel from the "This PC" window.
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{21EC2020-3AEA-1069-A2DD-08002B30309D}]
+
