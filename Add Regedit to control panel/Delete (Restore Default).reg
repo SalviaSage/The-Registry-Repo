@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+;; This deletes the Windows Registry Editor from the Control Panel.
+
+[-HKEY_CLASSES_ROOT\CLSID\{77708248-f839-436b-8919-527c410f48b9}]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ControlPanel\NameSpace\{77708248-f839-436b-8919-527c410f48b9}]
+
