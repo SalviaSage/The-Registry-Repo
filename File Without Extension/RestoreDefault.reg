@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+;; Removes the Context Menu -> New -> File Without Extension.
+
+[-HKEY_CLASSES_ROOT\.]
+
