@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+;; Hides the .scf file extension. (default setting)
+
+[HKEY_CLASSES_ROOT\SHCmdFile]
+"NeverShowExt" = ""
+
