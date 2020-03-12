@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\SingleTabNotepad++]
+@ = "Edit with Notepad++ (Single Tab)"
+"Icon"=hex(2):63,00,3a,00,5c,00,70,00,72,00,6f,00,67,00,72,00,61,00,6d,00,20,\
+  00,66,00,69,00,6c,00,65,00,73,00,20,00,28,00,78,00,38,00,36,00,29,00,5c,00,\
+  4e,00,6f,00,74,00,65,00,70,00,61,00,64,00,2b,00,2b,00,5c,00,6e,00,6f,00,74,\
+  00,65,00,70,00,61,00,64,00,2b,00,2b,00,2e,00,65,00,78,00,65,00
+
+[HKEY_CLASSES_ROOT\*\shell\SingleTabNotepad++\command]
+@ = "\"c:\\program files (x86)\\Notepad++\\notepad++.exe\" -nosession -notabbar -multiInst \"%1\""
+
