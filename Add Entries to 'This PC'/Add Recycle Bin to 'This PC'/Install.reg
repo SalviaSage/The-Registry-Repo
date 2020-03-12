@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+;; Adds the Recycle Bin to 'This PC'
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{645FF040-5081-101B-9F08-00AA002F954E}]
+@ = ""
+
