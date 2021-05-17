@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\OpenWithTypora]
+@ = "Open with Typora"
+"Icon"=hex(2):43,00,3a,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,20,\
+  00,46,00,69,00,6c,00,65,00,73,00,5c,00,54,00,79,00,70,00,6f,00,72,00,61,00,\
+  5c,00,54,00,79,00,70,00,6f,00,72,00,61,00,2e,00,65,00,78,00,65,00
+
+[HKEY_CLASSES_ROOT\*\shell\OpenWithTypora\command]
+@ = "\"c:\\Program Files\\Typora\\Typora.exe\" \"%1\""
+
