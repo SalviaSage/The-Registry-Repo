@@ -1,7 +1,0 @@
-Windows Registry Editor Version 5.00
-
-;; Shows the .shs file extension. (modified setting)
-
-[HKEY_CLASSES_ROOT\ShellScrap]
-"NeverShowExt" = -
-
