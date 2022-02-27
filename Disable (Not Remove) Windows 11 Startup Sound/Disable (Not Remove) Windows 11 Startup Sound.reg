@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+;; Disables the Windows 11 startup sound.
+
+;; https://forums.mydigitallife.net/threads/windows-11-tweaks-fixes-and-modifications-overview.83744/page-14#post-1681077
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\EditionOverrides]
+"UserSetting_DisableStartupSound"=dword:00000001
