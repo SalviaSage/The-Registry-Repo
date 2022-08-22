@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+; Created by Sergey Tkachenko
+; http://winaero.com
+; Please see this article: http://winaero.com/blog/how-to-run-disk-cleanup-in-the-system-files-cleanup-mode-directly/
+
+[HKEY_CLASSES_ROOT\Drive\shell\runas]
+@ = "Extended Disk Cleanup"
+"HasLUAShield" = ""
+"MultiSelectModel" = "Single"
+"Icon" = hex(2):25,00,77,00,69,00,6e,00,64,00,69,00,72,00,25,00,5c,00,73,00,\
+  79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,63,00,6c,00,65,00,61,00,6e,\
+  00,6d,00,67,00,72,00,2e,00,65,00,78,00,65,00,2c,00,30,00,00,00
+
+[HKEY_CLASSES_ROOT\Drive\shell\runas\Command]
+@ = "cmd.exe /c cleanmgr.exe /sageset:65535"
+
