@@ -1,2 +1,0 @@
-These registry files add an entry into the right click context menu for running an AutoHotkey program.
-The program then checks for whether there are Windows updates available for that PC, shows a small window and closes.
