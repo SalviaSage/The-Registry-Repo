@@ -3,14 +3,13 @@ Windows Registry Editor Version 5.00
 ;; Adds a new entry to the Context Menu -> New -> Windows Registry File.
 ;; The file will be created with the following string already in it:
 
-;;------------------------------------------------------------------------------
 ;; Windows Registry Editor Version 5.00
 ;;
 ;; ;; comment reserved
 ;;
 ;; []
 ;;
-;;------------------------------------------------------------------------------
+;;
 
 [HKEY_CLASSES_ROOT\.reg\ShellNew]
 "Data" = hex:ff,fe,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,20,00,52,00,65,\
