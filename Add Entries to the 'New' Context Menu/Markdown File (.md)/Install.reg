@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+;; Adds a new entry to the Context Menu -> New -> Markdown File.
+
+[HKEY_CLASSES_ROOT\.md]
+@="Markdown"
+
+[HKEY_CLASSES_ROOT\.md\ShellNew]
+"NullFile"=""
+
+[HKEY_CLASSES_ROOT\markdown]
+@="Markdown File"
