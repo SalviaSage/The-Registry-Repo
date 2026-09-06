@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+;; Deletes the entry from the Context Menu -> New -> CSV File.
+
+[-HKEY_CLASSES_ROOT\.csv\ShellNew]
+
+[HKEY_CLASSES_ROOT\csv_auto_file]
+@=""
